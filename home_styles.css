@@ -1,0 +1,131 @@
+body {
+	margin: 0;
+	padding: 0;
+    	width: 100%;
+}
+
+#wrapper, #jumbotron {
+    width: 100%;
+    margin: 0 auto;
+	max-width: 50000px;
+}
+
+#jumbotron {
+	height: 100%;
+	background-image: url("media/lake.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#menu li {
+	list-style-type: none;
+	display: inline;
+}
+
+#menu {
+	margin-top: 0px;
+	word-spacing: 30px;
+	padding-left: 40px;
+	padding-right: 15px;
+	height: 40px;
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, .8);
+	width: 100%;
+	z-index: 100;
+	box-shadow: 0 2px 2px -2px #3E4E50;
+	position: fixed;
+}
+
+#menu .page {
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+#menu a:link, #menu a:visited {
+	color: #3E4E50;
+}
+
+#menu a:hover {
+	color: #D78AAB;
+}
+
+.sm {	
+	height: 20px;
+	margin-right: -28px;
+	padding: 0px;
+}
+
+.icons {
+	float: right;
+	display: inline-block;
+	margin-right: 70px;
+	margin-top: 10px;
+}
+
+#name {
+	text-align: center;
+	height: 100px;
+	display: block;
+	padding-top: 25%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 6em;
+	color: white;
+}
+
+#places {
+    padding-left: 36%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	color: #3E4E50;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.circle {
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#quote {
+    background-color: #A5B0CC;
+}
+
+#quote p {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1.3em;
+	color: white;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/*footer {
+	background: #A1B9D5;
+	background: -webkit-linear-gradient(white, #A1B9D5); 
+    background: -o-linear-gradient(white, #A1B9D5); 
+    background: -moz-linear-gradient(white, #A1B9D5); 
+    background: linear-gradient(white, #A1B9D5); 
+	text-align: right;
+	font-family: 'Cormorant', serif;
+	font-size: .85em;
+	font-weight: 400;
+	color: white;
+	height: 160px;
+	margin-top: 50px;
+}
+
+footer p {
+	padding-top: 90px;
+	padding-right: 50px;
+}*/

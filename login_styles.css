@@ -1,0 +1,196 @@
+body {
+	margin: 0;
+	padding: 0;
+    width: 100%;
+    background-color: #3E4E50;
+    max-height: 100%
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+	max-width: 50000px;
+}
+
+#menu li {
+	list-style-type: none;
+	display: inline;
+}
+
+#menu {
+	margin-top: 0px;
+	word-spacing: 30px;
+	padding-left: 40px;
+	padding-right: 15px;
+	height: 40px;
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, .8);
+	width: 100%;
+	z-index: 100;
+	box-shadow: 0 2px 2px -2px #3E4E50;
+}
+
+.page {
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+#menu a:link, #menu a:visited {
+	color: #3E4E50;
+}
+
+#menu a:hover {
+	color: #D78AAB;
+}
+
+.sm {	
+	height: 20px;
+	margin-right: -28px;
+	padding: 0px;
+}
+
+.icons {
+	float: right;
+	display: inline-block;
+	margin-right: 70px;
+	margin-top: 10px;
+}
+
+.login {
+	margin: auto;
+	width: 30%;
+	margin-bottom: 20%;
+    padding-top: 20%;
+}
+
+.login p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #E8E9F3;
+	text-align: center;
+}
+
+.postform {
+	float: center;
+    width: 50%;
+    margin: auto;
+}
+
+.postform h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 1.6em;
+	color: #A5B0CC;
+	line-height: -20px;
+}
+
+.postform p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #E8E9F3;
+	text-align: left;
+}
+
+#date {
+	width: 160px;
+	max-width: 90%;
+}
+
+#title {
+	width: 250px;
+	max-width: 90%;
+}
+
+#body {
+	width: 550px;
+	max-width: 90%;
+	height: 200px;
+	font-family: Cormorant, serif;
+}
+
+.lefties {
+	margin-left: 40px;
+}
+
+#lefties {
+	display: inline-block;
+}
+
+.righties {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.cap {
+	width: 250px;
+	max-width: 90%;
+}
+
+input {
+	margin-left: 4px;
+	font-family: 'Lora', serif;
+}
+
+.login span, .login a:link, .login a:visited {
+	font-weight: 700;
+	color: #A5B0CC;
+    text-decoration: none;
+}
+
+#center {
+	text-align: center;
+	margin: 30px;
+}
+
+/*styling the password box*/
+input[type=password], input[type=text], input[type=date], textarea {
+  border: none;
+  background-color:  rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, .2);
+  color: white;   
+
+  -webkit-appearance: none;
+}
+
+#date {
+    margin-right: 20px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+input[name=main] {
+    margin-left: 22px;
+}
+
+input[type=submit] {
+
+  padding: 10px;
+  border-radius: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1em;
+  border: none;
+  background: #A5B0CC;
+  color: white;
+
+  cursor: pointer;
+}
+
+input[type=submit]:after {
+  content: " >>>";
+}
+
+input[type=submit]:hover,
+input[type=submit]:focus {
+  outline   : none;
+  background: #000;
+  color   : #FFF;
+}

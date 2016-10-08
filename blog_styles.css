@@ -1,0 +1,165 @@
+body {
+	margin: 0;
+	padding: 0;
+    width: 100%;
+}
+
+header {
+	height: 40px;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+	max-width: 50000px;
+}
+
+/*beginning of styles for menu bar*/
+#menu li {
+	list-style-type: none;
+	display: inline;
+}
+
+#menu {
+	margin-top: 0px;
+	word-spacing: 30px;
+	padding-left: 40px;
+	padding-right: 15px;
+	height: 40px;
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, .8);
+	width: 100%;
+	z-index: 100;
+	box-shadow: 0 2px 2px -2px #3E4E50;
+	position: fixed;
+}
+
+#menu .page {
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+#menu a:link, #menu a:visited {
+	color: #3E4E50;
+}
+
+#menu a:hover {
+	color: #D78AAB;
+}
+
+.sm {	
+	height: 20px;
+	margin-right: -28px;
+	padding: 0px;
+}
+
+.icons {
+	float: right;
+	display: inline-block;
+	margin-right: 70px;
+	margin-top: 10px;
+}
+/*end of styles for menu bar*/
+
+.new_post {
+	z-index: 1;
+	position: relative;
+	margin: auto;
+	width: 70%;
+	-webkit-transition: -webkit-filter 2s; 
+    transition: filter 2s;
+    margin-bottom: 70px;
+    display: block;
+}
+
+.new_post img {
+	width: 100%;
+	position: absolute;
+	display: block;
+}
+
+.filter {
+	-webkit-filter: invert(0);
+	filter: invert(0);
+}
+.filter:hover {
+	-webkit-filter: invert(0.1);
+	filter: invert(0.1);
+}
+
+.new_post #latest_post {
+	z-index: 2;
+    position: absolute;
+    text-align: center;    
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, .8);
+	margin-top: 250px;
+	display: block;
+}
+
+.read {
+	z-index: 3;
+	position: absolute;
+	border: 1.8px solid  #D78AAB;
+	margin-bottom: 20px;
+	color: #D78AAB;
+	width: 100px;
+	height: 25px;
+	left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1em;
+	display: block;
+	text-align: center;
+    word-spacing: 2.5px;
+}
+
+.new_post .read {
+	padding-top: 2%;
+}
+
+.read:hover {
+	background-color: #D78AAB;
+	color: white; 
+}
+
+#old_stuff {
+    width: 73%;
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 55%;
+}
+
+.old_post {
+    width: 46%;
+    position: relative;
+    display: block;
+    float: left;
+    padding: 2%;
+    margin-top, margin-bottom: 60px;
+    
+}
+
+.old_post .read {
+	padding-top: 1%;
+}
+
+.old_post img {
+	width: 100%;
+	height: 300px;
+	margin: auto;
+}
